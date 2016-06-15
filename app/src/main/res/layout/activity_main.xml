@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:divider="@drawable/divider"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <com.github.library.bubbleview.BubbleTextVew
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Hello BubbleTextVew"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:angle="8dp"
+        app:arrowHeight="10dp"
+        app:arrowLocation="right"
+        app:arrowPosition="14dp"
+        app:arrowWidth="8dp"
+        app:bubbleColor="#7EC0EE" />
+
+    <com.github.library.bubbleview.BubbleImageView
+        android:id="@+id/bubble_image"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/girl"
+        app:angle="6dp"
+        app:arrowHeight="8dp"
+        app:arrowLocation="left"
+        app:arrowPosition="15dp"
+        app:arrowWidth="10dp" />
+
+    <com.github.library.bubbleview.BubbleLinearLayout
+        android:id="@+id/bubble_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:angle="4dp"
+        app:arrowHeight="10dp"
+        app:arrowLocation="left"
+        app:arrowPosition="10dp"
+        app:arrowWidth="8dp"
+        app:bubbleColor="#7EC0EE">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4dp"
+            android:text="BubbleLinearLayout Text"
+            android:textColor="@android:color/white" />
+    </com.github.library.bubbleview.BubbleLinearLayout>
+
+    <com.github.library.bubbleview.BubbleTextVew
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Hello BubbleTextVew"
+        android:textColor="@android:color/white"
+        app:angle="2dp"
+        app:arrowHeight="10dp"
+        app:arrowLocation="bottom"
+        app:arrowPosition="10dp"
+        app:arrowWidth="8dp"
+        app:bubbleColor="#ff4444" />
+</LinearLayout>
