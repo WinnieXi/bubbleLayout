@@ -1,7 +1,7 @@
 # BubbleView
 
 ##Screenshot
-![screenshot](https://github.com/http832/bubbleLayout/tree/master/screenshot/screenshot.png)
+![screenshot](https://github.com/http832/bubbleLayout/blob/master/screenshot/screenshot.png)
 
 ##Import to your project
 ###Gradle
@@ -11,7 +11,7 @@ dependencies {
 }
 ```
 ###Or
-Copy [`BubbleDrawable.java`](https://github.com/http832/bubbleLayout/tree/master/library/src/main/java/com/github/library/bubbleview/BubbleDrawable.java) [`BubbleImageView.java`](https://github.com/http832/bubbleLayout/tree/master/library/src/main/java/com/github/library/bubbleview/BubbleImageView.java)  [`BubbleTextVew.java`](https://github.com/http832/bubbleLayout/tree/master/library/src/main/java/com/github/library/bubbleview/BubbleTextVew.java) [`BubbleLinearLayout.java`](https://github.com/http832/bubbleLayout/tree/master/library/src/main/java/com/github/library/bubbleview/BubbleLinearLayout.java) into your project.
+Copy [`BubbleDrawable.java`](https://github.com/http832/bubbleLayout/blob/master/library/src/main/java/com/github/library/bubbleview/BubbleDrawable.java) [`BubbleImageView.java`](https://github.com/http832/bubbleLayout/blob/master/library/src/main/java/com/github/library/bubbleview/BubbleImageView.java)  [`BubbleTextVew.java`](https://github.com/http832/bubbleLayout/blob/master/library/src/main/java/com/github/library/bubbleview/BubbleTextVew.java) [`BubbleLinearLayout.java`](https://github.com/http832/bubbleLayout/blob/master/library/src/main/java/com/github/library/bubbleview/BubbleLinearLayout.java) into your project.
 
 ##Usage
 ```
@@ -32,7 +32,7 @@ Copy [`BubbleDrawable.java`](https://github.com/http832/bubbleLayout/tree/master
 
 `app:angle` is the radius of bubble view
 
-###You can get more info from [activity_main.xml](https://github.com/http832/bubbleLayout/tree/master/app/src/main/res/layout/activity_main.xml)
+###You can get more info from [activity_main.xml](https://github.com/http832/bubbleLayout/blob/master/app/src/main/res/layout/activity_main.xml)
 
 ##Notice
 ###First
@@ -56,7 +56,7 @@ Copy [`BubbleDrawable.java`](https://github.com/http832/bubbleLayout/tree/master
     android:layout_height="wrap_content" />
 ```
 ###Second
-> if you want to use more bubble ViewGroup, just extend ViewGroup and realize it like [`BubbleLinearLayout.java`](https://github.com/http832/bubbleLayout/tree/master/library/src/main/java/com/github/library/bubbleview/BubbleLinearLayout.java). 
+> if you want to use more bubble ViewGroup, just extend ViewGroup and realize it like [`BubbleLinearLayout.java`](https://github.com/http832/bubbleLayout/blob/master/library/src/main/java/com/github/library/bubbleview/BubbleLinearLayout.java). 
 
 ##License
 ```
